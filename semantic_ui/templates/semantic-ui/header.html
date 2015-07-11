@@ -1,0 +1,9 @@
+<h1 class="ui {{ divider|yesno:"horizontal divider," }} {{ inverted|yesno:"inverted," }} header">
+    {% if icon %}
+    <i class="{{ icon }} icon"></i>
+    {% endif %}
+    <div class="content">
+        {{ content }}
+    </div>
+</h1>
+
