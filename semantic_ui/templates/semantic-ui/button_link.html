@@ -1,0 +1,8 @@
+<a href="{{ url }}" class="{{ icon }} {{ as_popup|yesno:'popup,' }} icon item"{% if as_popup %} data-content="{{ content }}"{% endif %}>
+    {% if icon %}
+    <i class="{{ icon }} icon"></i>
+    {% endif %}
+    {% if not as_popup %}
+    {{ content }}
+    {% endif %}
+</a>
