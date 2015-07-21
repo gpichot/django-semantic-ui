@@ -1,0 +1,2 @@
+include README.md
+recursive-include semantic_ui/templates *
