@@ -15,3 +15,12 @@ Component supported for now are:
 * Icon
 * Form (through `include` template tag)
 
+## Form
+
+Simply use:
+
+    {% include 'semantic-ui/form_popin.html' with button=_('Create') title=_('Create a new project') %}
+
+Or if you want to customize the container:
+
+    {% include 'semantic-ui/form.html' %}
